@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Franciszek Bieniek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Skontaktuj się ze mną</h1>
+        <p>Zamówienia i współprace otwarte</p>
+    </header>
+
+    <nav>
+        <a href="index.html" class="nav-btn">O mnie</a>
+        <a href="malarstwo.html" class="nav-btn">Malarstwo</a>
+        <a href="rysunek.html" class="nav-btn">Rysunek i Foto</a>
+        <a href="kontakt.html" class="nav-btn active">Kontakt</a>
+    </nav>
+
+    <main>
+        <section class="contact-container">
+            
+            <div class="contact-info">
+                <h2>Dane kontaktowe</h2>
+                <p>Pracuję w obrębie Warszawy i okolic, wykonuję obrazy, ilustracje oraz sesje zdjęciowe.</p>
+                <p>Email: artysta@student.pl</p>
+                
+                <h3>Pracownia działa pod logo:</h3>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="art-svg">
+    <polygon points="100,100 40,40 30,100" fill="#7C3AED" />
+    
+    <polygon points="100,100 30,100 50,150" fill="#6D28D9" />
+    
+    <polygon points="100,100 160,40 170,100" fill="#7C3AED" />
+    
+    <polygon points="100,100 170,100 150,150" fill="#6D28D9" />
+    
+    <polygon points="100,35 108,100 100,165 92,100" fill="#4C1D95" />
+    
+    <circle cx="100" cy="25" r="7" fill="#4C1D95" />
+</svg>
+            </div>
+
+            <div class="contact-map-section">
+                <h2>Interaktywna Fotografia</h2>
+                <p>Kliknij w <strong>kciuka</strong>, aby przejść do Wiki o ciele, lub w <strong>ścianę</strong>, by dowiedzieć się o architekturze.</p>
+                
+                <div style="overflow: auto;">
+                    <img src="images/fotacialo.jpg" alt="Dłoń na ścianie" usemap="#artmap" width="800" height="800" style="display: block; border-radius: 8px;">
+                </div>
+                
+                <map name="artmap">
+                    <area shape="poly" coords="800,800,600,650,450,550,350,450,280,350,200,220,250,180,450,350,550,500,800,700" alt="Ciało człowieka" href="https://pl.wikipedia.org/wiki/Cia%C5%82o_cz%C5%82owieka" target="_blank">
+                    
+                    <area shape="rect" coords="0,0,800,180" alt="Architektura" href="https://pl.wikipedia.org/wiki/Architektura" target="_blank">
+                    <area shape="rect" coords="0,180,200,800" alt="Architektura" href="https://pl.wikipedia.org/wiki/Architektura" target="_blank">
+                    <area shape="rect" coords="500,0,800,450" alt="Architektura" href="https://pl.wikipedia.org/wiki/Architektura" target="_blank">
+                </map>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>Autor: Franciszek Bieniek | Numer studenta: s35658</p>
+    </footer>
+
+</body>
+</html>
